@@ -1,8 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js & shadcn/ui template
+
+Welcome to this [Next.js](https://nextjs.org/) template repository, initiated using `create-next-app`. This template includes useful setup enhancements such as the integration of [shadcn/ui]('https://ui.shadcn.com/'), and setup for the [prettier-plugin-tailwindcss]('https://tailwindcss.com/blog/automatic-class-sorting-with-prettier') for sorting Tailwind CSS classes.
+
+## Features
+
+- shadcn/ui: Includes a [`theme-toggle`]('https://github.com/seangray-dev/nextjs-shadcn-template/blob/main/src/components/ui/theme-toggle.tsx') component for light and dark modes within the `site-navigation` component, leveraging [shadcn/ui]('https://ui.shadcn.com/') and [next/themes]('https://www.npmjs.com/package/next-themes').
+- [Prettier Plugin for TailwindCSS]('https://tailwindcss.com/blog/automatic-class-sorting-with-prettier'): Automatically sorts Tailwind CSS classes for cleaner code.
+- Pre-built Components: `site-footer` and `site-navigation` components are pre-configured in the `/components/layout` folder.
 
 ## Getting Started
 
-First, run the development server:
+### Fork and Set Up
+
+[Fork this repo](https://github.com/seangray-dev/nextjs-shadcn-template/fork) to create your own copy under your GitHub account. This enables you to customize and update the template without altering the original project.
+
+### Development
+
+1. Clone Your Fork: Clone the forked repository to your local system using your preferred Git client.
+2. Customize Your Setup: Adjust the existing components and settings according to your project's requirements.
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -17,8 +33,6 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
