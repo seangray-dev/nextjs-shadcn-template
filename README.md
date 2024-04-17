@@ -1,11 +1,11 @@
 # Next.js & shadcn/ui template
 
-Welcome to this [Next.js](https://nextjs.org/) template repository, initiated using `create-next-app`. This template includes useful setup enhancements such as the integration of [shadcn/ui]('https://ui.shadcn.com/'), and setup for the [prettier-plugin-tailwindcss]('https://tailwindcss.com/blog/automatic-class-sorting-with-prettier') for sorting Tailwind CSS classes.
+Welcome to this [Next.js](https://nextjs.org/) template repository, initiated using `create-next-app`. This template includes useful setup enhancements such as the integration of [shadcn/ui](https://ui.shadcn.com/), and setup for the [prettier-plugin-tailwindcss](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) for sorting Tailwind CSS classes.
 
 ## Features
 
-- shadcn/ui: Includes a [`theme-toggle`]('https://github.com/seangray-dev/nextjs-shadcn-template/blob/main/src/components/ui/theme-toggle.tsx') component for light and dark modes within the `site-navigation` component, leveraging [shadcn/ui]('https://ui.shadcn.com/') and [next/themes]('https://www.npmjs.com/package/next-themes').
-- [Prettier Plugin for TailwindCSS]('https://tailwindcss.com/blog/automatic-class-sorting-with-prettier'): Automatically sorts Tailwind CSS classes for cleaner code.
+- shadcn/ui: Includes a [`theme-toggle`]('https://github.com/seangray-dev/nextjs-shadcn-template/blob/main/src/components/ui/theme-toggle.tsx') component for light and dark modes within the `site-navigation` component, leveraging [shadcn/ui](https://ui.shadcn.com/) and [next/themes](https://www.npmjs.com/package/next-themes).
+- [Prettier Plugin for TailwindCSS](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier): Automatically sorts Tailwind CSS classes for cleaner code.
 - Pre-built Components: `site-footer` and `site-navigation` components are pre-configured in the `/components/layout` folder.
 
 ## Getting Started
